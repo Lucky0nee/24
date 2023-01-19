@@ -16,7 +16,7 @@ int main() {
 	int* ptrB = B;
 	int index = 0;
 	for (int i = 0; i < SizeA; i++) {
-		for (int j = 0; j < SizeB; j++) { //(SizeA > SizeB ? SizeB : SizeA)
+		for (int j = 0; j < SizeB; j++) {
 			if (*(ptrA+ i) == *(ptrB + j)) {
 				C[index] += ptrA[i];
 				index++;
